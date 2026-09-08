@@ -12,12 +12,22 @@
 
 ![image](https://github.com/user-attachments/assets/9e1f57e8-829c-42a7-82b2-afe0164dcead)
 
-## 담당 — dust9826
+## 게임
 
-- 키매핑 시스템
-- Room 정보를 활용한 몬스터 스폰
-- 카메라 연출
-- ShaderGraph와 파티클을 이용한 이펙트
+- **방 단위 던전** — RoomInfo를 기준으로 몬스터를 스폰하고, 문(Door)으로 다음 방으로 이어집니다. 보스 방은 별도 연출을 갖습니다.
+- **전투** — Entity를 상속한 플레이어·몬스터·보스, Attackable 인터페이스, 스킬 정보(SkillInfo).
+- **키 매핑** — 키 프리셋과 설정 UI(KeyPreset, KeySettingController).
+- **연출** — 카메라 컨트롤러와 장애물 처리, HDRP 포스트프로세싱, ShaderGraph와 파티클 이펙트.
+
+## 구조
+
+```text
+Assets/Scripts/
+  Controller/   Camera, Input, Player, Sound
+  Entity/       Entity, Player, Monster, Boss, Attackable, SkillInfo
+  KeySet/       KeyPreset, KeySettingController, KeyText
+  RoomInfo, EnemySpawner, Door, BossQuestion, SceneController, LoadingSceneManager, TitleManager
+```
 
 ## 링크
 
