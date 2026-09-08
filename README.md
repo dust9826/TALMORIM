@@ -28,8 +28,3 @@ Assets/Scripts/
   KeySet/       KeyPreset, KeySettingController, KeyText
   RoomInfo, EnemySpawner, Door, BossQuestion, SceneController, LoadingSceneManager, TitleManager
 ```
-
-## 링크
-
-- 프로젝트 상세 (Notion): [TALMORIM](https://military-guanaco-a36.notion.site/353a22a5543980e0934ef4868bd6f7f6)
-- 포트폴리오: [Notion](https://military-guanaco-a36.notion.site/352a22a5543980f5be50d4660a744e8e) · [PDF](https://drive.google.com/file/d/11B7ugR6RwQhI4dSEP5VHTsIx2B1_gTAP/view)
